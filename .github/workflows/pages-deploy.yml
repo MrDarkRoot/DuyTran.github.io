@@ -8,7 +8,7 @@ on:
       - .gitignore
       - README.md
       - LICENSE
-  # Allows you to run this workflow manually from the Actions tab
+  # Allows you to run this workflow manually from the Actions tab sss
   workflow_dispatch:
 permissions:
   contents: read
@@ -41,14 +41,7 @@ jobs:
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: "production"
-      # - name: Test site
-      #   run: |
-      #     bundle exec htmlproofer _site \
-      #       --disable-external \
-      #       --allow-hash-href \
-      #       --empty-alt-ignore \
-      #       --ignore-missing-alt \
-      #       --ignore-urls "/^\/assets\//"
+
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:
