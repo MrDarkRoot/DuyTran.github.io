@@ -3,15 +3,15 @@
 # Import the theme
 theme: jekyll-theme-chirpy
 
-# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
+# The language of the webpage
 lang: en
 
-# Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
+# Change to your timezone
 timezone: Asia/Ho_Chi_Minh
 
 # jekyll-seo-tag settings
 title: CyberSec Notes
-tagline: Writeups, Pentest, Red Team, SOC Analyst, Blue Team
+tagline: "Writeups, Pentest, Red Team, SOC Analyst, Blue Team"
 description: >-
   CTF writeup, Red Team, Blue Team fundamentals.
 
@@ -19,18 +19,18 @@ description: >-
 url: "https://DuyTran.github.io"
 
 github:
-  username: MrDarkRoot   # <-- thay đúng username GitHub
+  username: "DuyTran"   # thay username thật
 
 twitter:
-  username: ""           # để trống nếu chưa dùng
+  username: ""          # để trống nếu chưa dùng
 
 social:
-  name: Duy Tran
-  email: duyytrann22@gmail.com
+  name: "Duy Tran"
+  email: "duyytrann22@gmail.com"
   bio: "Jr. Penetration Tester | Cyber Security Enthusiast"
   links:
-    - https://twitter.com/username
-    - https://github.com/MrDarkRoot
+    - "https://twitter.com/username"
+    - "https://github.com/DuyTran"
 
 # Site Verification Settings
 webmaster_verifications:
@@ -40,6 +40,7 @@ webmaster_verifications:
   yandex: ""
   baidu: ""
   facebook: ""
+
 
 
 
