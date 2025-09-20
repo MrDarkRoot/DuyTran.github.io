@@ -4,55 +4,43 @@
 theme: jekyll-theme-chirpy
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
-# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
-# otherwise, the layout language will use the default value of 'en'.
 lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone: Asia/Ho_Chi_Minh
 
-# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
-# ↓ --------------------------
-
-title: CyberSec Notes # the main title
-
-tagline: Writeups, Pentest, Red Team, SOC Analyst, Blue Team # it will display as the subtitle
-
-description: >- # used by seo meta and the atom feed
+# jekyll-seo-tag settings
+title: CyberSec Notes
+tagline: Writeups, Pentest, Red Team, SOC Analyst, Blue Team
+description: >-
   CTF writeup, Red Team, Blue Team fundamentals.
 
 # Fill in the protocol & hostname for your site.
-# E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://DuyTran.github.io"
 
 github:
-  username: MrDarkRoot # change to your GitHub username
+  username: MrDarkRoot   # <-- thay đúng username GitHub
 
 twitter:
-  username: twitter_username # change to your Twitter username
+  username: ""           # để trống nếu chưa dùng
 
 social:
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Duy Tran
-  email: duyytrann22@gmail.com # change to your email address
+  email: duyytrann22@gmail.com
   bio: "Jr. Penetration Tester | Cyber Security Enthusiast"
   links:
-    # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/MrDarkRoot # change to your GitHub homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://twitter.com/username
+    - https://github.com/MrDarkRoot
 
 # Site Verification Settings
 webmaster_verifications:
-  google: # fill in your Google verification code
-  bing: # fill in your Bing verification code
-  alexa: # fill in your Alexa verification code
-  yandex: # fill in your Yandex verification code
-  baidu: # fill in your Baidu verification code
-  facebook: # fill in your Facebook verification code
+  google: ""
+  bing: ""
+  alexa: ""
+  yandex: ""
+  baidu: ""
+  facebook: ""
+
 
 
 # ↑ --------------------------
