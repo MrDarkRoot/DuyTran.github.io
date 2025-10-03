@@ -1,10 +1,9 @@
-# Site settings
 title: CyberSec Notes
 tagline: "Writeups, Pentest, Red Team, SOC Analyst, Blue Team"
 description: "CTF writeup, Red Team, Blue Team fundamentals."
 
 url: "https://mrdarkroot.github.io"
-baseurl: ""   # User site thì phải để trống
+baseurl: ""
 
 lang: en
 timezone: Asia/Ho_Chi_Minh
@@ -18,7 +17,7 @@ plugins:
   - jekyll-archives
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-include-cache   # 👈 thêm vào đây
+  - jekyll-include-cache
 
 
 paginate: 10
