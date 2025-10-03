@@ -14,7 +14,11 @@ remote_theme: "cotes2020/jekyll-theme-chirpy"
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
+  - jekyll-paginate
   - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-feed
+
 
 paginate: 10
 
