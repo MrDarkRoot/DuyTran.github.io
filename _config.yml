@@ -1,28 +1,32 @@
-# The Site Configuration
-
-# Import the theme
-remote_theme: "cotes2020/jekyll-theme-chirpy"
-
-lang: en
-timezone: Asia/Ho_Chi_Minh
-
+# Site settings
 title: CyberSec Notes
 tagline: "Writeups, Pentest, Red Team, SOC Analyst, Blue Team"
 description: "CTF writeup, Red Team, Blue Team fundamentals."
 
 url: "https://mrdarkroot.github.io"
-baseurl: ""   # rất quan trọng: để trống cho user site
+baseurl: ""   # User site thì phải để trống
 
+lang: en
+timezone: Asia/Ho_Chi_Minh
+
+remote_theme: "cotes2020/jekyll-theme-chirpy"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-archives
+
+paginate: 10
+
+# Sidebar
 github:
   username: "MrDarkRoot"
-
 social:
   name: "Duy Tran"
   email: "duyytrann22@gmail.com"
   bio: "Jr. Penetration Tester | Cyber Security Enthusiast"
   links:
     - "https://github.com/MrDarkRoot"
-    - "https://twitter.com/username"
 
 # Site Verification Settings
 webmaster_verifications:
