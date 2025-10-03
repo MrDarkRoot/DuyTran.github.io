@@ -8,7 +8,7 @@ baseurl: ""
 lang: en
 timezone: Asia/Ho_Chi_Minh
 
-remote_theme: "cotes2020/jekyll-theme-chirpy"
+theme: jekyll-theme-chirpy
 
 plugins:
   - jekyll-remote-theme
