@@ -1,6 +1,5 @@
 source "https://rubygems.org"
-
-gem "jekyll", "~> 4.3.0"  
+gem "jekyll", "4.3.0"  # ⬅️ BỎ DẤU ~>
 
 group :jekyll_plugins do
   gem "jekyll-remote-theme", "~> 0.4.3"
