@@ -80,7 +80,7 @@ social_preview_image: ""
 toc: true
 
 comments:
-  provider: ""
+  provider: false
   disqus:
     shortname: ""
   utterances:
