@@ -11,7 +11,6 @@ timezone: Asia/Ho_Chi_Minh
 theme: jekyll-theme-chirpy
 
 plugins:
-  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-archives
