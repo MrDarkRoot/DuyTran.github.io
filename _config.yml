@@ -18,6 +18,7 @@ plugins:
   - jekyll-archives
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-include-cache   # 👈 thêm vào đây
 
 
 paginate: 10
