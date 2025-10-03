@@ -9,5 +9,5 @@ group :jekyll_plugins do
   gem "jekyll-archives"
   gem "jekyll-sitemap"
   gem "jekyll-feed"
-  gem "jekyll-include-cache"   # 👈 thêm cái này
+  gem "jekyll-include-cache"
 end
